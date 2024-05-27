@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ANDRITZ</title>
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- CSS Diseño Personalizado -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-4">Lorem</div>
+
+
+            <div class="col-md-4">        
+                
+                <div>
+                <canvas id="myChart"></canvas>
+                </div>
+              
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+              
+              <script>
+                const ctx = document.getElementById('myChart');
+              
+                new Chart(ctx, {
+                  type: 'line',
+                  data: {
+                    labels: ['Hito 1', 'Hito 2', 'Hito 3', 'Hito 4', 'Hito 5'],
+                    datasets: [{
+                      label: 'Mapa PGP 2024',
+                      data: [12, 19, 3, 5, 2],
+                      borderWidth: 2
+                    }]
+                  },
+                  options: {
+                    scales: {
+                      y: {
+                        beginAtZero: true
+                      }
+                    }
+                  }
+                });
+              </script>
+
+              </div>
+            <div class="col-md-4">Lorem</div>
+        </div>
+    </div>
+    
+
+
+
+
+</body>
+
+</html>
