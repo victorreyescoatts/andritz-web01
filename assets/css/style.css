@@ -602,6 +602,11 @@ footer.footer{
 }
 
 
+td.txt-td{
+    font-size: 14px;
+    font-weight: 700;
+}
+
   /*:::::::::::::GRILLA::::::::::::::*/
 
   .and-container{
@@ -761,6 +766,12 @@ footer.footer{
 
     .and-accidente{
         min-height: 500px;
+    }
+
+    td.txt-td{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
     }
     
     }
