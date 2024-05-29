@@ -607,6 +607,12 @@ td.txt-td{
     font-weight: 700;
 }
 
+.card {
+    margin-bottom: 1.5rem;
+    -webkit-box-shadow: rgba(100, 98, 92, .06) 0 0 15px 4px;
+    box-shadow: rgba(100, 98, 92, .06) 0 0 15px 4px;
+}
+
   /*:::::::::::::GRILLA::::::::::::::*/
 
   .and-container{
